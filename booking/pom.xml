@@ -7,15 +7,18 @@
     
     <!-- Project Details -->    
     <groupId>letting</groupId>
-    <artifactId>booking</artifactId>
+    <artifactId>room booking</artifactId>
     <version>0.1.0</version>
-    <name>School Booking</name>
+    <name>School Room Booking</name>
 
     <properties>
         <!-- Generic properties -->
         <java.version>1.7</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+             
+        <!-- Mavin -->
+        <maven-plugin.version>2.3.2</maven-plugin.version>
 
         <!-- Spring -->
         <spring-framework.version>4.0.0.RELEASE</spring-framework.version>
@@ -100,11 +103,26 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
+                <version>${maven-plugin.version}</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                     <showDeprecation>false</showDeprecation>
+                </configuration>
+            </plugin>
+                            
+            <!-- Create Executable JAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>${maven-plugin.version}</version>
+                <configuration>                    
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>gui.Start</mainClass>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>
