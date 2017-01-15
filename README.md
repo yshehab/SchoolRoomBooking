@@ -2,9 +2,7 @@
 
 A simple system for booking school function rooms, with focus on design.
 
-Originally created on java.net.
-
-Project members:
+Moved from java.net were it was created by:
 * Neil Andreson - lead (http://neilanderson.freehostia.com)
 * Ben Woodcock
 * Damien O'Leary
