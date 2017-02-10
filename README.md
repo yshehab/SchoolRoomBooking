@@ -1,6 +1,6 @@
 # School Room Booking
 
-A simple system for booking school function rooms, with focus on design.
+An application to manage bookings of school function rooms focusing on the software design, and the development process. Implemented in Java under a combination of facade pattern for middle tier and proxy pattern for UI, utilising a NoSQL graph database.
 
 Moved from java.net were it was created by:
 * Neil Andreson - lead (http://neilanderson.freehostia.com)
