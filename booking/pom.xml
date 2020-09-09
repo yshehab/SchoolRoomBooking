@@ -28,7 +28,7 @@
         <spring-data-neo4j.version>2.3.3.RELEASE</spring-data-neo4j.version>
 
         <!-- Validation: Hibernate-Validator -->
-        <hibernate.version>5.3.5.Final</hibernate.version>
+        <hibernate.version>5.3.6.Final</hibernate.version>
 
         <!-- Logging: Log4j -->
         <log4j.version>1.7.5</log4j.version>
