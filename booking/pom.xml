@@ -22,7 +22,7 @@
         <maven-plugin.version>2.3.2</maven-plugin.version>
         
         <!-- Spring -->
-        <spring-framework.version>5.2.22.RELEASE</spring-framework.version>
+        <spring-framework.version>6.1.14</spring-framework.version>
 
         <!-- Spring Data Neo4j -->
         <spring-data-neo4j.version>2.3.3.RELEASE</spring-data-neo4j.version>
